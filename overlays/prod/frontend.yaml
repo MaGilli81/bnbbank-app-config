@@ -12,7 +12,7 @@ spec:
     spec: 
       containers:
       - name: front
-        image: gcr.io/bank-of-anthos-ci/frontend:v0.5.2
+        image: gcr.io/bnb-dev-363714/bnb-bank/release/frontend:e30e34b
         env:
         - name: ENABLE_TRACING
           value: "true"

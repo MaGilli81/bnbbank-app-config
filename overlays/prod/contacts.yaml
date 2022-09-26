@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: contacts
-        image: gcr.io/bank-of-anthos-ci/contacts:v0.5.2
+        image: gcr.io/bnb-dev-363714/bnb-bank/release/contacts:e30e34b
         env:
         - name: ENABLE_TRACING
           value: "true"
