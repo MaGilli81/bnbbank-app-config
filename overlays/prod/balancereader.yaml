@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: balancereader
-        image: gcr.io/bnb-dev-363714/bnb-bank/release/balancereader:e30e34b
+        image: gcr.io/bnb-dev-363714/bnb-bank/release/balancereader:0f544b5
         env:
         - name: ENABLE_TRACING
           value: "true"
