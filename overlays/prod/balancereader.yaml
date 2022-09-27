@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: balancereader
-        image: gcr.io/bank-of-anthos-ci/balancereader:v0.5.2
+        image: gcr.io/bnb-dev-363714/bnb-bank/release/balancereader:9cb322e
         env:
         - name: ENABLE_TRACING
           value: "true"
