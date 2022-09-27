@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: userservice
-        image: gcr.io/bnb-dev-363714/bnb-bank/release/userservice:0f544b5
+        image: gcr.io/bnb-dev-363714/bnb-bank/release/userservice:9cb322e
         env:
         - name: ENABLE_TRACING
           value: "true"

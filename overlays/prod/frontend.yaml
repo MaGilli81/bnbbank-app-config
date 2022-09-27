@@ -12,7 +12,7 @@ spec:
     spec: 
       containers:
       - name: front
-        image: gcr.io/bnb-dev-363714/bnb-bank/release/frontend:0f544b5
+        image: gcr.io/bnb-dev-363714/bnb-bank/release/frontend:9cb322e
         env:
         - name: ENABLE_TRACING
           value: "true"
